@@ -12,7 +12,7 @@ const ContenutoPrincipale = () => {
               <Card style={{ width: "13rem" }}>
                 <Card.Img variant="top" src={libro.img} />
                 <Card.Body>
-                  <Card.Title>{libro.title}</Card.Title>
+                  <Card.Text>{libro.title}</Card.Text>
                 </Card.Body>
               </Card>
             </div>

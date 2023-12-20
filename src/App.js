@@ -4,6 +4,7 @@ import MyNavbar from './components/MyNavbar'
 import Benvenuto from './components/Benvenuto';
 import MyFooter from './components/MyFooter';
 import ContenutoPrincipale from './components/ContenutoPrincipale';
+import ContenutoPrincipale1 from './components/SingeBook';
 
 function App() {
 return(
@@ -13,7 +14,8 @@ return(
     <Benvenuto />
     </header>
 <main>
-  <ContenutoPrincipale />
+  {/* <ContenutoPrincipale /> */}
+  <ContenutoPrincipale1 />
 </main>
 <footer>
   <MyFooter />
