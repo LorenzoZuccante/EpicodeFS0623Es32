@@ -5,6 +5,7 @@ import Benvenuto from './components/Benvenuto';
 import MyFooter from './components/MyFooter';
 import ContenutoPrincipale from './components/ContenutoPrincipale';
 import ContenutoPrincipale1 from './components/ContenutoPrincipale1';
+import CommentsSection from './components/CommentsSection';
 
 function App() {
 return(
@@ -16,6 +17,8 @@ return(
 <main>
   {/* <ContenutoPrincipale /> */}
   <ContenutoPrincipale1 />
+  
+  
 </main>
 <footer>
   <MyFooter />

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import Books from "../Data/books.json";
+import CommentsSection from "./CommentsSection";
 
 const SingleBook = ({ libro, isSelected, handleClick }) => {
   return (
@@ -12,6 +13,7 @@ const SingleBook = ({ libro, isSelected, handleClick }) => {
           <Card.Text>{libro.title}</Card.Text>
         </Card.Body>
       </Card>
+      {isSelected && <CommentsSection elementId={libro.asin} />}
     </div>
   );
 };
